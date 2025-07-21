@@ -1,344 +1,589 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<title> PeaceRaphael </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="portfolio.css">
-
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Gallery | Digital Art Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap">
+   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollSmoother.min.js"></script>
 </head>
-
-
-
-
-
 <body>
-
-  <div class="w3-bar w3-top" style="background-color: rgb(18, 18, 37); padding: 10px; color: white">
-    <a href="# " class="w3-bar-item w3-button w3-circle" style="background-color: rgb(225, 225, 231); 
-    color: rgb(13, 13, 36); margin-right: 80px;">PR</a>
-    <a href="#home" class="w3-bar-item w3-button w3-hide-small" style="margin-left: 20px;">Home</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small" style="margin-left: 20px;">About</a>
-    <a href="#resume" class="w3-bar-item w3-button w3-hide-small" style="margin-left: 20px;">Resume</a>
-    <a href="#service" class="w3-bar-item w3-button w3-hide-small" style="margin-left: 20px;">Projects</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small" style="margin-left: 20px;">Contact</a>
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
-  </div>
-  
-  <div id="demo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-text-white "  style="background-color: rgb(18, 18, 37);">
-    <a href="#home" class="w3-bar-item w3-button" style="padding-top: 20px;">Home</a>
-    <a href="#about" class="w3-bar-item w3-button"> About</a>
-    <a href="#resume" class="w3-bar-item w3-button">Resume</a>
-    <a href="#service" class="w3-bar-item w3-button">Projects</a>
-    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-  </div>
-  
-
-
-
-
-<!--About-->
-
-<div class=" bg w3-image"  id="home" >
-    <div class="overlay">  <div  class="name" style="margin-top: 250px;">
-<h1 style="font-size: 80px; " >Raphael Peace</h1>
-<h2 id="textSection" style=" font-size: 40px; "  ><b><i></i></b></h2>
-    </div></div></div>
-
-    <!--About--><div style="margin: 40px;">
-    <div    id="about">    
-<div class="w3-container about">
-
-  <h3 class="w3-border-bottom" style="font-size: 40px; color: blue; font-weight: 100px;">About</h3>
-  <p>I am a versatile professional with five years of expertise in front-end development, complemented
-    by a strong background as a content creator. My journey began with intensive training at CONNAK
-    Foundation, providing me with a solid foundation in front-end technologies. Beyond coding, I excel
-    in crafting engaging narratives and visually appealing content. I further enriched my skills through
-    additional training at Udacity, staying at the forefront of industry trends. This dual proficiency in
-    both technical and creative domains positions me as a dynamic individual ready to contribute
-    innovative solutions in any dynamic work environment.</p>
- 
-</div>
-<div class="w3-row-padding">
-<div class="w3-third"><img src="peace-bg.jpg" alt="profile picture" width="100%"></div>
-<div class="w3-half about">
-<h1>Web Developer</h1>
-<p style="font-style: italic;">I aim to stay at the forefront of front-end technologies and design trends, ensuring 
-    that the websites and applications I work on not only meet but exceed user expectations.
-  </p>
-
-<div class="w3-row">
-<div class="w3-half">
-<ul>
-   
-    <li>Website: <a href="https://www.peaceraphael.com" style="color: blue;">www.peaceraphael</a></li>
-    <li>Phone : +234 903 512 4607</li>
-    <li>E-mail:<a href="mailto: raphaelpeace2002@gmail.com"  style="color: blue;">raphaelpeace@gmail</a></li>
- 
-</ul>
-
-
-</div>
-<div class="w3-half">
-
-    <ul>
-   
-        <li>Degree: Undergraduate(BSc)</li>
-      <li>City: Nsukka, Enugu</li>
-        <li>Freelance : Available</li>
-    </ul>
-
-</div>
-
-</div>
-<p class="about "> Committed to clean and efficient code, I strive to enhance user satisfaction through responsive and accessible design. I am enthusiastic about tackling new challenges, staying innovative,
-and contributing to the success of projects through my front-end development skills.</p>
-
-</div>
-</div>   
-
-</div>
-
-<!--resume-->
-<div  style=" margin-top: 50px" class="resume margin" id="resume"  >    
-    <h2 class="w3-border-bottom" style="color: rgb(19, 19, 41);">Resume</h2>
+    <!-- Navigation -->
+  <nav>
+    <div class="logo">PEACEDEV</div>
     
-    <p>Web Developer with a keen eye for design and a passion for creating intuitive interfaces, 
-        my goal is to collaborate with cross-functional teams to bring web projects to life. </p>
-
-<div class="w3-row-padding" style="margin-top: 30px;">
-
-<div class="w3-half  w3-card">
-<h2 ><b>Summary</b></h2><div class=" resume" style="background-color: bisque;">
-<h4>Raphael Peace </h4>
-<p><em>I am a versatile professional with five years of expertise in front-end development, complemented
-  by a strong background as a content creator. My journey began with intensive training at CONNAK
-  Foundation, providing me with a solid foundation in front-end technologies</em></p> <ul>
- 
-  <li>+234 903 512 4607</li>
-  <li><a href="https://mailto:raphaelpeace2002@gmail.com">raphaelpeace@gmail.com</a></li>
-</ul>
-</div>
-
-
-         <!--   <h3 class="" >Education</h3>
-            <div class="resume w3-grey w3-card">
-              <h4>Undergraduate</h4>
-              <h5>2020 -  Till Date</h5>
-              <p><em> University of Nigeria, Nsukka</em></p></div>-->
-
-              <h3 class="">Professional Experience</h3>
-
+    <!-- Mobile Menu Button (Hamburger Icon) -->
+    <button class="mobile-menu-btn"
+     aria-label="Toggle menu">
+        <span class="hamburger"></span>
+    </button>
     
-    <div class="resume w3-card" style="background-color: bisque;">
-        <h4>Intern</h4>
-        <h5>Oct.2023 - Nov.2023</h5>
-        <p><em>Udacity   </em></p>
-        <ul>
-          <li>As an intern at Udacity, I embarked on a transformative journey in the world of programming and technology. </li>
-          <li>Collaborated on real-world projects that simulated industry challenges, applying theoretical knowledge to practical scenarios. </li>
-          <li>Acquired proficiency in version control using Git, enabling efficient collaboration and code management within a team environment. </li>
-
-        </ul>
-      </div>
-
-</div>
-
-<div class="w3-half w3-card " style="background-color: bisque;">
+    <!-- Navigation Links -->
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+    </div>
     
-    <div class="resume" >
-        <h4>Front-end Developer</h4>
-        <h5>Jan 2020 - Dec.2020</h5>
-        <p><em>CONNAK Foundation</em></p>
-        <ul>
-          <li>Spearheaded the design and development of responsive and visually compelling web applications to enhance the foundation's online presence. </li>
-          
-          <li>Applied and expanded my programming knowledge by utilizing HTML, CSS, and JavaScript to build dynamic and interactive web solutions. Stayed abreast of the latest front-end frameworks and libraries, 
-            incorporating best practices to enhance code efficiency and maintainability.</li>
-  
-        </ul>
-      </div>
-      <div class="resume">
-        <h4>Content Creator</h4>
-        <h5>2019 - 2020</h5>
-        <p><em>Opera News Hub</em></p>
-        <ul>
-          <li>	In my role as a Content Creator at Opera News Hub, I engaged in the dynamic world of 
-            digital content creation</li>
-          <li>I developed an in-depth understanding of audience preferences, leveraging this knowledge 
-            to create articles that resonated with a wide readership.</li>
-          <li>	Through analytics and feedback mechanisms, I sharpened my ability to adapt content 
-            strategies, ensuring continuous growth and relevance on the Opera News Hub platform.</li>
+    <!-- Dark/Light Mode Toggle -->
+    <button class="mode-toggle">
+        <span class="mode-icon">☽</span>
+        <span class="mode-text">Dark</span>
+    </button>
+    
+    <!-- Overlay when menu is open -->
+    <div class="menu-overlay">
+
         
-        </ul>
-      </div>
+    </div>
+</nav>
 
+
+
+
+    <!-- Hero Section -->
+<section class="hero" id="home" >
+  <div class="parallax-container">
+    <div class="parallax-layer" data-depth="0.1"></div>
+    <div class="parallax-layer" data-depth="0.3"></div>
+    <div class="parallax-layer" data-depth="0.6"></div>
+  </div>
+
+  <div class="hero-content">
+    <h1>Ideas Coded <br>Into Reality</h1> 
+    <p>From concept to launch, I transform ideas into fast, functional, and visually
+         engaging web experiences that connect with users and drive results.</p>
+
+    <a href="https://wa.me/2349035124607" target="_blank" rel="noopener noreferrer" >
+ <button  id="contact" download class="glow-but" style="text-align: center;">
+   Hire Me
+             </button>
+</a>
 </div>
 
-</div>
 
 
-<div class="skill w3-row-padding " style="margin-top: 40px;">
-<h2 class="resume w3-border-bottom" style="color: rgb(19, 19, 41);">Skills</h2>
+ 
 
-<div class="w3-half">
-
-    <div class="w3-round-xlarge"><h4>HTML</h4><div class="w3-light-grey">
-        <div class="w3-container w3-blue w3-round-xlarge" style="width: 100%;">100%</div>
-    </div>
-    </div>
-
+    <div class="scroll-hint">
     
-<div class=" w3-round-xlarge"><h4>CSS</h4><div class="w3-light-grey">
-    <div class="w3-container w3-blue w3-round-xlarge" style="width: 90%;">90%</div>
-</div>
-</div>
-
-
-<div class=" w3-round-xlarge"><h4>Javascript</h4><div class="w3-light-grey">
-    <div class="w3-container w3-blue w3-round-xlarge" style="width: 70%;">70%</div>
-</div>
-</div>
-
-
-
-</div>
-
-
-
-<div class="w3-half">
-
-    <div class=" w3-round-xlarge"><h4>W3.CSS</h4><div class="w3-light-grey">
-        <div class="w3-container w3-blue w3-round-xlarge" style="width: 98%;">98%</div>
+      <div class="arrow"></div>
     </div>
-    </div>
+  
+</section>
 
+
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">Selected Works</h2>
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card" data-project="1">
+                <img src="./images/SmartLearn.png" alt="Project 1" class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">SmartLearn</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">Education site</span>
+                        <span class="project-tag">Web Development</span>
+                    </div>
+                <p>A sleek, responsive interface crafted to enhance digital learning experiences.</p>
     
-<div class="w3-round-xlarge"><h4>Python</h4><div class="w3-light-grey">
-    <div class="w3-container w3-blue w3-round-xlarge" style="width: 75%;">75%</div>
-</div>
-</div>
+                </div>
+            </div>
 
+            <!-- Project 2 -->
+            <div class="project-card" data-project="2">
+                <img src="./images/designs.png" alt="Project 2" class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">Designer's Portfolio</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">Portfolio</span>
+                        <span class="project-tag">Web Development</span>
+                    </div>
+              <p>A modern, responsive portfolio showcasing creative work and development skills.</p>
 
-<div class=" w3-round-xlarge"><h4>React</h4><div class="w3-light-grey">
-    <div class="w3-container w3-blue w3-round-xlarge" style="width: 60%;">60%</div>
-</div>
-</div>
+                </div>
+            </div>
 
+            <!-- Project 3 -->
+            <div class="project-card" data-project="3">
+                <img src="./images/budgettracker.png" alt="Project 3" class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">Budget Tracker</h3>
+                    <div class="project-tags">
+                <span class="project-tag">Web App</span>
+    <span class="project-tag">Finance</span>
+                    </div>
+            <p>A simple tool to help users track expenses, set budgets, and manage their finances in real time.</p>
+  </div>
+            </div>
 
-</div>
-
-
-
-</div><!--Skill ends here-->
-
-<div class="service" id="service" style="margin-top: 120px;">
-    <div class="w3-row-padding">
-        <h2 class="w3-border-bottom " style="color: rgb(19, 19, 41);">Projects</h2>
-<div class="w3-third"><p>
-    <p class="services">
-
- <a href="https://budget-tracker-beige.vercel.app/"> <b>Budget Tracker: https://budget-tracker-beige.vercel.app/</b></a><br>
-A site that acts as a financial management tool that helps individuals or organizations monitor their income and expenses, categorize spending, and track progress toward financial goals
- </p></p>
-</div>
-<div class="w3-third"><p>
-<p class="services ">
-  <a href="https://the-bruised-lady-2gza.vercel.app/"><b>Bruised Lady : https://the-bruised-lady-2gza.vercel.app/</b></a><br>
-    A site that helps ladies who were molested to find help by introducing them to organizations that can be of help.</p></p>
-</div>
-<div class="w3-third"><p>
-    <p class="services">
-    <b>  Portfolio Site : <a href="https://machi-github-io-gixp.vercel.app/" > https://machi-github-io-gixp.vercel.app/ </a></b>
-   A site that describes the work of a web developer, her skills and expertise.</p></p>
-</div>
-    </div>
-</div> 
-</div>
-
-
-
-<section  class="about  ">
-    <div class="container services w3-panel w3-round-xxlarge w3-leftbar w3-rightbar" style="background-color: wheat;">
-      <h2 style="padding: 15px;">  Would you love to venture into TECH this year?</h2>
-      <p class="advert" style="padding-left: 15px;">Then this E-book is for you----- <a href="https://selar.co/k6116v" 
-        style="text-decoration: underline;">"Before You Go into Tech"</a><br>Click on the link above to access it.</p>
-    </div>
-  
-  </section></div>
-  
-  
-<footer id="contact">
-<div class="  resume">
-    <h3 class="w3-tag" >Let's Connect</h3><hr>
-    <ul>
+            <!-- Project 4 -->
+            <div class="project-card" data-project="4">
+                <img src="./images/solar system.png" alt="Project 4" class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">Solar System</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">Space Design</span>
+                        <span class="project-tag">Motion Graphics</span>
+                    </div>
+                <p>A collection of animated space visuals bringing the solar system to life through vibrant illustration and smooth transitions.</p>
    
-        <li style="list-style-type: none; "><span style="font-size: 30px;">&#9742; </span>Phone : +234 903 512 4607</li>
-        <li style="list-style-type: none;"><span style="font-size: 30px ;">&#9993;</span> E-mail:<a href="mailto: raphaelpeace@gmail.com"  style="color: blue;">raphaelpeace@gmail</a></li>
+                </div>
+            </div>
 
-    </ul></div>
+            <!-- Project 5 -->
+            <div class="project-card" data-project="5">
+                <img src="./images/cake.png" alt="Project 5" class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">Cake site</h3>
+                    <div class="project-tags">
+                 <span class="project-tag">Website</span>
+    <span class="project-tag">UI Design</span>
+                    </div>
+         <p>A visually appealing website showcasing cake designs, baking services, and client testimonials.</p>
+
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card" data-project="6">
+                <img src="./images/techworld.png" alt="Project 6" class="project-image">
+                <div class="project-overlay">
+                    <h3 class="project-title">TechWorld </h3>
+                    <div class="project-tags">
+                 <span class="project-tag">Web Development</span>
+<span class="project-tag">Brand Identity</span>
+
+                    </div>
+                <p>Responsive website built for TechWorld, featuring a clean layout, interactive elements, and strong brand identity.</p>
+   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="./images/AF0C5B40-CC89-4DB9-A97D-A2591780E42E.PNG" 
+            alt="Designer Portrait">
+        </div>
+        <div class="about-content">
+            <h2>The Developer</h2>
+          <p>With over 4 years of experience in web development, I specialize in building responsive, 
+            user-focused websites that blend clean code with intuitive design. My journey into tech began 
+            with training as a front-end developer at <strong>Connak Foundation</strong>, followed by further 
+            studies at <strong>Udacity</strong> and at <strong>3MTT</strong>.</p>
+
+<p>I’m also the author of an e-book titled <strong>"Before You Go Into Tech"</strong>, where I share insights to
+     guide aspiring tech enthusiasts. <a href="https://selar.com/k6116v" target="_blank" rel="noopener noreferrer">Click here to get the e-book</a>.</p>
+
+<p>In addition, I run a <a href="https://youtube.com/@techworld-ei1yn?si=c4GO28bwbVXEEwTH" target="_blank" rel="noopener noreferrer">YouTube channel</a> where I teach people about web development, making it easy for beginners to learn and grow in the field.</p>
+
+<p>I believe every website should tell a story and serve a purpose—whether it's a portfolio, business platform, or interactive app. Each project is a chance to innovate, refine, and bring ideas to life through code.</p>
+
+<p>Beyond development, I stay engaged by exploring the latest web technologies and sharing knowledge through tutorials and community learning sessions.</p>
+ <div class="skills">
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Reactjs</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Backend</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 60%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Problem-Solving</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+             <a href="https://drive.google.com/file/d/1c5r_pHYJGxl_3ed9WUnRUBJdHrvJZBcH/view?usp=sharing" download class="glow-button">
+  <i class="fas fa-download"></i> Download CV
+</a>
+
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Process Section -->
+<section class="process" id="process">
+    <h2 class="section-title"> Building Process</h2>
+    <p style="max-width: 800px; margin: 0 auto 2rem;
+     text-align: center;">
+        Every masterpiece begins with a method. Here's how I transform ideas into impactful digital experiences.
+    </p>
     
-
-<div class=" " style="padding: 10px">
-  
-  <a href="https://twitter.com/RaphaelPea65141" class="w3-round-xxlarge "> <img src="twitter.jpg" alt="twitter" width="5%"></a>
-  <a href="https://web.facebook.com/peace.raphael.5855/" class="w3-round-xxlarge">  <img src="fb.png" alt="facebook" width="5%"> </a>
-  <a href="www.linkedin.com/in/peaceraphael"  class=" w3-round-xxlarge"><img src="link.png" alt="LinkedIn" width="5%"></a>
-
+    <!-- AI Process Visualization -->
+    <div class="ai-process">
+        <canvas id="process-canvas"></canvas>
+        <div class="process-nodes">
+            <div class="node" data-step="1">Plan</div>
+            <div class="node" data-step="2">Architect</div>
+            <div class="node" data-step="3">Develop</div>
+            <div class="node" data-step="4">Test</div>
+            <div class="node" data-step="5">Deploy </div>
+        </div>
+    </div>
+        
+        <div class="process-steps">
+           <div class="process-step">
+    <div class="process-number">01</div>
+    <h3 class="process-title">Plan</h3>
+    <p>Gathering project requirements, defining scope, and understanding the target audience to align development goals with business objectives.</p>
 </div>
-    <div style="text-align: center; background-color:rgb(21, 21, 37); padding: 10px">
-      
-        &copy; Copyright <strong><span>Peace Raphael</span></strong>
+
+<div class="process-step">
+    <div class="process-number">02</div>
+    <h3 class="process-title">Architect</h3>
+    <p>Outlining site structure, choosing the right technologies, and setting up the project architecture for scalability and maintainability.</p>
+</div>
+
+<div class="process-step">
+    <div class="process-number">03</div>
+    <h3 class="process-title">Develop</h3>
+    <p>Writing clean, efficient code to build responsive and interactive user interfaces, integrating backend APIs, and ensuring performance optimization.</p>
+</div>
+
+<div class="process-step">
+    <div class="process-number">04</div>
+    <h3 class="process-title">Test</h3>
+    <p>Conducting rigorous testing across devices and browsers, debugging issues, and refining functionality based on real-user feedback.</p>
+</div>
+
+<div class="process-step">
+    <div class="process-number">05</div>
+    <h3 class="process-title">Deploy</h3>
+    <p>Launching the website or app to production, setting up hosting and version control, and ensuring a smooth, secure deployment process.</p>
+</div>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+  <section class="contact" id="contact">
+  
+  <h2>Let’s Launch Your Vision</h2>
+  <p>Looking for a developer who understands both code and design? I collaborate with clients to create user-friendly, high-performing websites that stand out. Let’s talk.</p>
+
+  <form class="contact-form" action="https://formsubmit.co/raphaelpeace2002@gmail.com" method="POST" target="_blank" >
+      <!-- Hidden Fields for FormSubmit -->
+      <input type="hidden" name="_subject" value="New message from portfolio site">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="index.html"> <!-- ✅ Redirect after submission -->
+
+      <div class="form-group half">
+          <input type="text" name="name" class="form-input" placeholder="Name" required>
       </div>
-
-</footer>
-    
-
-
-
-
-
-
-<script>
-
-      
-  function myFunction() {
-    var x = document.getElementById("demo");
-    if (x.className.indexOf("w3-show") == -1) {
-      x.className += " w3-show";
-    } else { 
-      x.className = x.className.replace(" w3-show", "");
-    }
-  }
-
-
-
-
-    // Array of texts to display
-    var texts = [
-        " Web Developer ",
-        "Content Creator",
-        "Graphics Designer"
-       
-    ];
-
-    // Function to display text
-    function displayText() {
-        var textSection = document.getElementById("textSection");
-        // Randomly select a text from the array
-        var randomIndex = Math.floor(Math.random() * texts.length);
-        var selectedText = texts[randomIndex];
-        // Display the selected text
-        textSection.innerHTML = "<p>" + selectedText + "</p>";
-    }
-
-    // Display initial text
-    displayText();
-
-    // Set interval to change text every 5 seconds (5000 milliseconds)
-    setInterval(displayText, 1000);
-
-</script>
+      <div class="form-group half">
+          <input type="email" name="email" class="form-input" placeholder="Email" required>
+      </div>
+      <div class="form-group">
+          <input type="text" name="subject" class="form-input" placeholder="Subject">
+      </div>
+      <div class="form-group">
+          <textarea name="message" class="form-input form-textarea" placeholder="Message" required></textarea>
+      </div>
      
+
+
+      <button type="submit" class="submit-btn" id="submitBtn">
+  <span class="btn-text">Send Message</span>
+  <span class="spinner" id="spinner"></span>
+</button>
+
+<div class="form-success" id="formSuccess">
+  <div class="checkmark">&#10003;</div>
+  <p>Message sent successfully!</p>
+</div>
+
+  </form>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+       <div class="social-links">
+    <a href="https://www.instagram.com/raphaelpeace3?igsh=MXI3YTB6NGR4dXQ3eA%3D%3D&utm_source=qr
+" class="social-link" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/peaceraph" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://x.com/raphaelpea65141?s=21" target="_blank" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.tiktok.com/@raphaelpeace395?_t=ZM-8xpR9EsaKuO&_r=1" target="_blank" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+    <a href="https://wa.me/2349035124607"  class="social-link" aria-label="WhatsApp" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+  <a href="mailto:raphaelpeace2002@gmail.com" target="_blank" class="social-link" aria-label="Email">
+  <i class="fas fa-envelope"></i>
+</a>
+</a>
+</div>
+
+        <p class="copyright">© 2025 PeaceDev. All rights reserved.</p>
+    </footer>
+
+    <!-- Project Modals -->
+    <div class="modal" id="project-modal-1">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+          <div class="modal-header">
+    <h3 class="modal-title">SmartLearn</h3>
+    <p class="modal-subtitle">Learning Platform for University Students</p>
+    <div class="modal-tags">
+        <span class="modal-tag">Web Development</span>
+        <span class="modal-tag">Education</span>
+        <span class="modal-tag">Firebase</span>
+        <span class="modal-tag">Frontend</span>
+        <span class="modal-tag">2025</span>
+    </div>
+</div>
+
+            <div class="modal-body">
+                <div class="modal-gallery">
+                    <img src="./images/SmartLearn.png" alt="Neon Dreams 1" class="modal-image">
+                    <img src="./images/Quiz Portal - Google Chrome 7_7_2025 12_02_59 PM.png" alt="Neon Dreams 2" class="modal-image">
+                    <img src="./images/Quiz Portal - Google Chrome 7_7_2025 12_03_12 PM.png" alt="Neon Dreams 3" class="modal-image">
+                    <img src="./images/Quiz Portal - Google Chrome 7_7_2025 12_06_46 PM.png" alt="Neon Dreams 4" class="modal-image">
+                    
+                </div>
+                <div class="modal-details">
+                   <div class="modal-description">
+    <p>SmartLearn is an interactive learning platform designed to help university students master mathematics through structured lessons, engaging visuals, and step-by-step problem-solving techniques.</p>
+    
+    <p>Key features include topic-based quizzes, video tutorials, personalized learning paths, and a community forum where students can ask questions and collaborate with peers.</p>
+    
+    <p>The design process involved extensive user research with university students to identify common challenges in learning math, resulting in a clean, intuitive interface that encourages active learning and consistent practice.</p>
+</div>
+
+                    <div class="modal-links">
+                        <a href="https://smart-learn-ten.vercel.app/" target="_blank">View Live</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="modal" id="project-modal-2">
+    <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <div class="modal-header">
+            <h3 class="modal-title">Designer’s Portfolio</h3>
+            <p class="modal-subtitle">Creative Showcase for Web & Visual Projects</p>
+            <div class="modal-tags">
+                <span class="modal-tag">Portfolio</span>
+                <span class="modal-tag">Web Development</span>
+                <span class="modal-tag">Responsive Design</span>
+                <span class="modal-tag">2023</span>
+            </div>
+        </div>
+        <div class="modal-body">
+            <div class="modal-gallery">
+                <img src="./images/designs.png" alt="Portfolio 1" class="modal-image">
+                <img src="./images/Alex Creative _ Professional Graphic Designer - Google Chrome 7_7_2025 12_35_09 PM.png" alt="Portfolio 2" class="modal-image">
+            <img src="./images/Alex Creative _ Professional Graphic Designer - Google Chrome 7_7_2025 12_35_18 PM.png" alt="Portfolio 3" class="modal-image">
+               
+            </div>
+            <div class="modal-details">
+                <div class="modal-description">
+                    <p>This modern and responsive portfolio was built to showcase a blend of creative design and front-end development skills. It highlights personal projects, client work, and design concepts in a clean, user-friendly layout.</p>
+                    <p>The design focuses on minimalism and accessibility, with smooth transitions, section-based navigation, and mobile-first responsiveness to ensure a seamless experience across all devices.</p>
+                    <p>Whether viewed by potential clients or collaborators, the goal was to create a lasting impression while keeping the content organized and visually engaging.</p>
+                </div>
+                <div class="modal-links">
+                    <a href="#" target="_blank">Visit Site</a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" id="project-modal-3">
+    <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <div class="modal-header">
+            <h3 class="modal-title">Budget Tracker</h3>
+            <p class="modal-subtitle">Personal Finance Management App</p>
+            <div class="modal-tags">
+                <span class="modal-tag">Web App</span>
+                <span class="modal-tag">Finance</span>
+                <span class="modal-tag">Javascript</span>
+                <span class="modal-tag">2024</span>
+            </div>
+        </div>
+        <div class="modal-body">
+            <div class="modal-gallery">
+                <img src="./images/budgettracker.png" alt="Budget Tracker 1" class="modal-image">
+                <img src="./images/tracker.png" alt="Budget Tracker 2" class="modal-image">
+               
+            </div>
+            <div class="modal-details">
+                <div class="modal-description">
+                    <p>Budget Tracker is a simple yet powerful web application designed to help users manage their daily expenses, track spending habits, and set monthly budgets with ease.</p>
+                    <p>The interface allows users to categorize transactions, view spending breakdowns through interactive charts, and monitor their financial goals in real time. It also includes responsive design for mobile use, making personal finance management accessible anytime, anywhere.</p>
+                    <p>The project was focused on delivering a clean, intuitive experience that simplifies financial planning without overwhelming the user, ideal for students and young professionals.</p>
+                </div>
+                <div class="modal-links">
+                    <a href="dget-tracker-beige.vercel.app/budget tracker.html" target="_blank">View Project</a>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal" id="project-modal-4">
+    <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <div class="modal-header">
+            <h3 class="modal-title">Solar System</h3>
+            <p class="modal-subtitle">Animated Space Visual Experience</p>
+            <div class="modal-tags">
+                <span class="modal-tag">Space Design</span>
+                <span class="modal-tag">Motion Graphics</span>
+                <span class="modal-tag">Illustration</span>
+                <span class="modal-tag">2023</span>
+            </div>
+        </div>
+        <div class="modal-body">
+            <div class="modal-gallery">
+                <img src="./images/solar system.png" alt="Solar System Visual 1" class="modal-image">
+                
+            </div>
+            <div class="modal-details">
+                <div class="modal-description">
+                    <p>This project brings the solar system to life through a series of animated space visuals, using vibrant illustrations and smooth transitions to create an engaging user experience.</p>
+                    <p>The interface was designed to be both educational and visually captivating, making complex celestial concepts more accessible and enjoyable. Planetary orbits, rotations, and scaling are carefully animated for realism and user interaction.</p>
+                    <p>Built using modern motion design tools, the project showcases dynamic storytelling through a visual journey of space, encouraging exploration and curiosity about our solar neighborhood.</p>
+                </div>
+                <div class="modal-links">
+                    <a href="#" target="_blank">View Project</a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" id="project-modal-5">
+    <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <div class="modal-header">
+            <h3 class="modal-title">Cake Site</h3>
+            <p class="modal-subtitle">Baking Services & Portfolio Website</p>
+            <div class="modal-tags">
+                <span class="modal-tag">Website</span>
+                <span class="modal-tag">UI Design</span>
+                <span class="modal-tag">Branding</span>
+                <span class="modal-tag">2024</span>
+            </div>
+        </div>
+        <div class="modal-body">
+            <div class="modal-gallery">
+                <img src="./images/cake.png" alt="Cake Site 1" class="modal-image">
+                <img src="./images/1sw.png" alt="Cake Site 2" class="modal-image">
+                <img src="./images/sw2.png" alt="Cake Site 3" class="modal-image">
+  <img src="./images/sw3.png" alt="Cake Site 4" class="modal-image">
+                <img src="./images/sw4.png" alt="Cake Site 5" class="modal-image">
+<img src="./images/sw5.png" alt="Cake Site 2" class="modal-image">
+                <img src="./images/sw6.png" alt="Cake Site 6" class="modal-image">
+
+            </div>
+            <div class="modal-details">
+                <div class="modal-description">
+                    <p>This cake website was designed to visually showcase elegant cake designs, promote baking services, and build client trust through testimonials and smooth UX flow.</p>
+                    <p>It features a clean, modern layout that highlights the artistry of each product, alongside clear service sections, booking options, and customer feedback areas to boost engagement and conversion.</p>
+                </div>
+                <div class="modal-links">
+                    <a href="#" target="_blank">View Site</a>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal" id="project-modal-6">
+    <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <div class="modal-header">
+            <h3 class="modal-title">TechWorld</h3>
+            <p class="modal-subtitle">Web Development & Brand Identity</p>
+            <div class="modal-tags">
+                <span class="modal-tag">Web Development</span>
+                <span class="modal-tag">Brand Identity</span>
+                <span class="modal-tag">Responsive Design</span>
+                <span class="modal-tag">2023</span>
+            </div>
+        </div>
+        <div class="modal-body">
+            <div class="modal-gallery">
+                <img src="./images/techworld.png" alt="TechWorld 1" class="modal-image">
+                 <img src="./images/tw1.png" alt="TechWorld 2" class="modal-image">
+                  <img src="./images/tw2.png" alt="TechWorld 3" class="modal-image">
+                   <img src="./images/tw3.png" alt="TechWorld 3" class="modal-image">
+               </div>
+            <div class="modal-details">
+                <div class="modal-description">
+                    <p>TechWorld is a responsive website crafted for a tech-focused brand, featuring a clean layout and interactive elements that enhance user experience across devices.</p>
+                    <p>The project highlights a strong visual identity, intuitive navigation, and clear content hierarchy, making it easy for users to explore services and engage with the brand.</p>
+                    <p>Designed with both aesthetics and performance in mind, the site reflects the professionalism and innovation that defines the TechWorld brand.</p>
+                </div>
+                <div class="modal-links">
+                    <a href="https://techworld-five.vercel.app/" target="_blank">View Live</a>
+              
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Add more modals for other projects -->
+
+
+<script src="script.js"></script>
 </body>
 </html>
